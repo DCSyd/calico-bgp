@@ -1,4 +1,4 @@
-apiVersion: projectcalico.org/v3
+apiVersion: crd.projectcalico.org/v1
 kind: BGPPeer
 metadata:
   name: vyos
@@ -6,7 +6,7 @@ spec:
   peerIP: 192.168.86.36
   asNumber: 64512
 ---
-apiVersion: projectcalico.org/v3
+apiVersion: crd.projectcalico.org/v1
 kind: BGPConfiguration
 metadata:
   name: service-cidr
