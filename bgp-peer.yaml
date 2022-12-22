@@ -12,3 +12,5 @@ metadata:
   name: bgp
 spec:
   asNumber: 64512
+  serviceExternalIPs:
+  - cidr: 10.43.0.0/16
